@@ -1,8 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Xml;
-using DevExpress.Web.ASPxGridView;
-using DevExpress.Web.ASPxGridView.Export;
+using DevExpress.Export;
+using DevExpress.Web;
+using DevExpress.XtraPrinting;
 
 public partial class _Default : System.Web.UI.Page
 {
@@ -16,10 +17,10 @@ public partial class _Default : System.Web.UI.Page
         GridExporter.WritePdfToResponse();
     }
     protected void btnXlsExport_Click(object sender, EventArgs e) {
-        GridExporter.WriteXlsToResponse();
+        GridExporter.WriteXlsToResponse(new XlsExportOptionsEx() { ExportType = ExportType.WYSIWYG });
     }
     protected void btnXlsxExport_Click(object sender, EventArgs e) {
-        GridExporter.WriteXlsxToResponse();
+        GridExporter.WriteXlsxToResponse(new XlsxExportOptionsEx() { ExportType = ExportType.WYSIWYG });
     }
     protected void btnRtfExport_Click(object sender, EventArgs e) {
         GridExporter.WriteRtfToResponse();
