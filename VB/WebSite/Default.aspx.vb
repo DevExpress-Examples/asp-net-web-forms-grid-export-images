@@ -2,8 +2,7 @@
 Imports System
 Imports System.IO
 Imports System.Xml
-Imports DevExpress.Web.ASPxGridView
-Imports DevExpress.Web.ASPxGridView.Export
+Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
