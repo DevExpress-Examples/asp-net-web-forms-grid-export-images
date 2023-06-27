@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
-<%@ Register Assembly="DevExpress.Web.v15.2" Namespace="DevExpress.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v22.2" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 
 
@@ -28,12 +28,10 @@
                 <td style="padding-right: 4px">
                     <dx:ASPxButton ID="btnRtfExport" runat="server" Text="Export to RTF" OnClick="btnRtfExport_Click" />
                 </td>
-                <td>
-                    <dx:ASPxButton ID="btnCsvExport" runat="server" Text="Export to CSV" OnClick="btnCsvExport_Click" />
-                </td>
             </tr>
         </table>
-        <dx:ASPxGridView ID="Grid" runat="server" AutoGenerateColumns="False" DataSourceID="XmlDataSource1">
+        <dx:ASPxGridView ID="Grid" runat="server" AutoGenerateColumns="False" DataSourceID="XmlDataSource1" 
+                         OnExportRenderBrick="Grid_ExportRenderBrick" >
             <Columns>
                 <dx:GridViewDataTextColumn FieldName="Common_Name" Caption="Common name" />
                 <dx:GridViewDataTextColumn FieldName="Species_Name" Caption="Species name" />
@@ -45,7 +43,6 @@
             </Columns>
             <SettingsPager PageSize="5" />
         </dx:ASPxGridView>
-        <dx:ASPxGridViewExporter ID="GridExporter" runat="server" GridViewID="Grid" OnRenderBrick="GridExporter_RenderBrick" />
         <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/Fishes.xml" />
     </form>
 </body>
