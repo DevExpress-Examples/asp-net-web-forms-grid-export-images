@@ -6,7 +6,7 @@
 
 # Grid View for ASP.NET Web Forms - How to export images from the column of the GridViewDataImageColumn type
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4756/)**
+**[[Run Online]](https://codecentral.devexpress.com/128533193/)**
 <!-- run online end -->
 
 
