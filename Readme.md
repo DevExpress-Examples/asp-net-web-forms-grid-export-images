@@ -6,9 +6,9 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Fishes.xml](./CS/WebSite/App_Data/Fishes.xml) (VB: [Fishes.xml](./VB/WebSite/App_Data/Fishes.xml))
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+* [Fishes.xml](./CS/WebSite/App_Data/Fishes.xml)
+* [Default.aspx](./CS/WebSite/Default.aspx)
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs)
 <!-- default file list end -->
 # ASPxGridView - Export images from the column of the GridViewDataImageColumn type
 <!-- run online -->
