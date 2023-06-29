@@ -35,8 +35,8 @@ protected void btnXlsxExport_Click(object sender, EventArgs e) {
 
 ## Files to Review
 
-* [Default.aspx](./CS/Export/Default.aspx) (VB: [Default.aspx.vb](./VB/Export/Default.aspx.vb))
-* [Default.aspx.cs](./CS/Export/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Export/Default.aspx.vb))
+* [Default.aspx](./CS/Export/Default.aspx)
+* [Default.aspx.cs](./CS/Export/Default.aspx.cs)
 
 ## Documentation
 
