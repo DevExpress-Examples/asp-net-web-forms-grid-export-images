@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Grid View for ASP.NET Web Forms - How to export images from the column of the GridViewDataImageColumn type
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128533193/)**
-<!-- run online end -->
 
 
 The [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) control exports images contained in a column of the [GridViewDataBinaryImageColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataBinaryImageColumn) type.
