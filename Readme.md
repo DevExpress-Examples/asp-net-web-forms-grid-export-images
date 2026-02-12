@@ -44,7 +44,7 @@ protected void btnXlsxExport_Click(object sender, EventArgs e) {
 
 * [Export with Data Cell Bands](https://demos.devexpress.com/ASPxGridViewDemos/Exporting/ExportWithDataCellBands.aspx)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-export-images&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-export-images&~~~was_helpful=no)
 
